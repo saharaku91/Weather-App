@@ -21,15 +21,18 @@ It features a user-friendly GUI developed using JavaFX and integrates with the O
 - Weather API key from [OpenWeatherMap](https://openweathermap.org/)
 
 ## Setup
-1. Clone the repository:
+1. Download the Source Code:
    ```bash
-   git clone https://github.com/saharaku91/Weather-App.git
+   https://github.com/saharaku91/Weather-App/releases/download/v1/WeatherApp.zip
+2. Extract the folder with WinRAR or Unzip program windows.
+3. Add your API key in WeatherService.java.
+4. Open CMD.exe in Windows and go to the path folder:
+   ```bash
    cd WeatherApp
-2. Add your API key in WeatherService.java.
-3. Open CMD.exe in Windows and compile the application:
+5. Compile the application:
    ```bash
    javac --enable-preview -source 22 -d bin -cp "src/main/resources;lib/*" src/main/java/com/weatherapp/*.java
-4. Run the application:
+6. Run the application:
    ```bash
    java --enable-preview -cp "bin;src/main/resources;lib/*" com.weatherapp.Main
 
