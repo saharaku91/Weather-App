@@ -23,24 +23,25 @@ It features a user-friendly GUI developed using JavaFX and integrates with the O
 ## Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/weather-information-app.git
-   cd weather-information-app
+   git clone https://github.com/saharaku91/Weather-App.git
+   cd WeatherApp
 2. Add your API key in WeatherService.java.
-3. Compile the application:
-	javac -cp .;lib\javafx-sdk-17.0.2\lib\* -d out src\*.java
+3. Open CMD.exe in Windows and compile the application:
+   	javac --enable-preview -source 22 -d bin -cp "src/main/resources;lib/*" src/main/java/com/weatherapp/*.java
 4. Run the application:
-	java -cp out;lib\javafx-sdk-17.0.2\lib\* MainApp
+   	java --enable-preview -cp "bin;src/main/resources;lib/*" com.weatherapp.Main
 
 
 ## Setup
-	>> Enter a city name or coordinates to get the weather data.
-	>> Use the GUI to view weather details and switch units.
-	>> Access recent searches from the history tab.
+>> Enter a city name or coordinates to get the weather data.
+>> Use the GUI to view weather details and switch units.
+>> Access recent searches from the history tab.
 	
 ## License
-	This project is licensed under the MIT License.
+This project is licensed under the MIT License.
 
 
 ## Author
-	Olif Sahara
+
+Olif Sahara
 
